@@ -1,14 +1,15 @@
 @import '../utils/variables';
 
 .catalog {
-  padding: 50px 40px;
+  padding: $padding-catalog;
 
   &__grid {
     display: grid;
     justify-content: center;
     gap: 46px 48px;
 
-    grid-template-columns: 1fr;
+    // grid-template-columns: 1fr;
+    grid-template-columns: repeat(1, $card-width);
   }
 }
 

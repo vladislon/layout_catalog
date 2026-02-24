@@ -5,15 +5,15 @@
   align-items: center;
   justify-content: space-between; // logo po lewej, nav po prawej
 
-  height: 60px;
-  padding: 10px 50px;
+  height: $height-60;
+  padding: $padding-header;
 
   border-bottom: $border-base $border-color;
   background-color: $white;
 
   &__logo {
-    width: 40px;
-    height: 40px;
+    width: $width-40;
+    height: $height-40;
 
     background-image: url('../images/logo.png');
     background-repeat: no-repeat;

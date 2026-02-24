@@ -26,7 +26,7 @@
     background-size: $background-size;
   }
 
-  &__description {
+  &__title {
     margin-bottom: $margin-bottom-4;
     font-size: $font-size-12;
     font-weight: $font-weight-500;
@@ -116,8 +116,8 @@
   &:hover {
     transform: scale(1.2);
 
-    .card__description {
-      color: #34568b;
+    .card__title {
+      color: $new-blue;
     }
   }
 }
